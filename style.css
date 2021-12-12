@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: .5s ease;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    margin: 4rem;
+}
+
+#drawing-board {
+    width: 60vh;
+    height: 60vh;
+    display: grid;
+}
+
+.square {
+    border: 1px solid black;
+    transition: .2s ease;
+}
+
+.square-hover {
+    background-color: black;
+    transition: .2s ease;
+}
+
+.restart-button {
+    padding: 1rem;
+    border: none;
+    background-color: black;
+    transition: .5s ease;
+    color: white;
+}
+
+.restart-button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: .5s ease;
+}
